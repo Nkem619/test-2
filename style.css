@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/class\ web\ 1.jfif);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.nav-bar.flex div {
+    flex: 1;
+}
+
+.nav-bar.flex ul {
+    flex: 3;
+}
+
+.nav-bar ul li:last-child {
+    background-color: darkred;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
